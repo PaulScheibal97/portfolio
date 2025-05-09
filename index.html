@@ -9,8 +9,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Press+Start+2P&display=swap" rel="stylesheet">
+
 </head>
 <body>
+    <div class="crt-overlay"></div>
+    <div class="vhs-tracking"></div>
+    <div class="noise"></div>
     <header>
         <div class="container">
             <nav>
@@ -34,8 +39,12 @@
     </header>
 
     <section id="home" class="hero">
-        <div class="container">
-            <div class="hero-content">
+        <div class="hero-bg">
+            <div class="sun"></div>
+            <div class="grid-floor"></div>
+        </div>
+        <div class="container" style="position: relative;">
+            <div class="hero-content" style="margin: auto; max-width: 1060px;">
                 <h1>Hi, I'm <span class="highlight">Paul Scheibal Jr</span></h1>
                 <h2>Fullstack Web Developer</h2>
                 <p>I build exceptional digital experiences on the web</p>
@@ -43,6 +52,8 @@
                     <a href="#projects" class="btn primary-btn">View My Work</a>
                     <a href="#contact" class="btn secondary-btn">Contact Me</a>
                 </div>
+            </div>
+                
                 <!-- <div class="social-icons">
                     <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
                     <a href="https://linkedin.com/in/yourusername" target="_blank"><i class="fab fa-linkedin"></i></a>
@@ -68,7 +79,7 @@
             <div class="about-content">
                 <div class="about-image">
                     <div class="image-container">
-                        <img src="images/hand-drawn-retro-computer-windows_23-2150387950.avif" alt="Your Name" style="width: 100%; height: 300px;">
+                        <img src="images/the-screen-of-an-old-retro-pc-in-the-y2k-style-retro-wave-and-vaporwave-background-bright-vintage-computer-interface-vector.jpg" alt="Your Name" style="width: 100%; height: 300px;">
                     </div>
                 </div>
                 <div class="about-text">
@@ -116,7 +127,7 @@
                         <img src="images/solarviewsite.png" alt="SolarView">
                     </div>
                     <div class="project-info">
-                        <h3>SolarView Website</h3>
+                        <h3>SolarView</h3>
                         <h3>1st Semester Midterm</h3>
                         <p>A fully responsive informative website built with HTML, CSS, and JavaScript.</p>
                         <div class="project-tags">
@@ -134,7 +145,7 @@
                         <img src="images/deckbuilderapp.png" alt="Deck Builder App">
                     </div>
                     <div class="project-info">
-                        <h3>Deck Builder App</h3>
+                        <h3>Deck Builder</h3>
                         <h3>1st Semester Final</h3>
                         <p>Build decks with Silly Cat Trading Card Game Company's deck builder!</p>
                         <div class="project-tags">
@@ -153,7 +164,7 @@
                         <img src="images/issuetracker-portfoli-img.png" alt="Issue Tracker">
                     </div>
                     <div class="project-info">
-                        <h3>Issue Tracker App</h3>
+                        <h3>Issue Tracker</h3>
                         <h3>3rd Semester Final</h3>
                         <p>Track issues with Issue Tracker! Made entirely in the MERN stack.</p>
                         <div class="project-tags">
@@ -176,7 +187,7 @@
                         <img src="images/mainassistSS.PNG" alt="Main Assist">
                     </div>
                     <div class="project-info">
-                        <h3>Main Assist Website</h3>
+                        <h3>Main Assist</h3>
                         <h3>4th Semester Final</h3>
                         <p>Website for World of Warcraft and tracking various data from the Blizzard API.</p>
                         <div class="project-tags">
@@ -188,7 +199,6 @@
                             <span>SQL</span>
                             <span>Azure</span>
                             <span>API</span>
-                            
                         </div>
                         <div class="project-links">
                             <a href="https://mainassist-bnb2fce4gsbtcmdv.canadacentral-01.azurewebsites.net/" class="btn small-btn" target="_blank">Demo</a>
@@ -262,10 +272,6 @@
                             <span>JavaScript</span>
                         </div>
                         <div class="tech-item">
-                            <i class="fab fa-github"></i>
-                            <span>GitHub</span>
-                        </div>
-                        <div class="tech-item">
                             <i class="fab fa-npm"></i>
                             <span>npm</span>
                         </div>
@@ -324,7 +330,7 @@
                             <i class="fas fa-phone"></i>
                             <div>
                                 <h4>Phone</h4>
-                                <p>(618)792-0462</p>
+                                <p>(618) 792-0462</p>
                             </div>
                         </div>
                     </div>
