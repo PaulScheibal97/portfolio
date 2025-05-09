@@ -144,15 +144,17 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function animateOnScroll() {
-    animatedElements.forEach((element) => {
-      const elementPosition = element.getBoundingClientRect().top
-      const windowHeight = window.innerHeight
+  document.querySelectorAll(".hidden").forEach((element) => {
+    const elementPosition = element.getBoundingClientRect().top
+    const windowHeight = window.innerHeight
 
-      if (elementPosition < windowHeight - 50) {
-        element.classList.add("show")
-      }
-    })
-  }
+    if (elementPosition < windowHeight - 50) {
+      element.classList.add("show")
+      element.classList.remove("hidden") // prevents rechecking
+    }
+  })
+}
+
 
   // Smooth scrolling for anchor links
   document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
