@@ -1323,11 +1323,11 @@ footer {
 
 @media (max-width: 576px) {
   .hero h1 {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 
   .hero h2 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 
   .filter-buttons {
